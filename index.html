@@ -1,1 +1,107 @@
-<h1>Opps I did it again !!! :)</h1>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+ <style >
+   *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 1160px;
+    width: 90%;
+  }
+  .column {
+    float: left;
+    margin-left: 5%;
+  }
+ 
+  .column:first-child {
+    margin-left: 0;
+  }
+  .column.full {
+  width: 100%;
+}
+  
+.column.two-thirds {
+  width: 65%;
+}
+  
+.column.half {
+  width: 47.5%;
+}
+ 
+.column.one-third {
+  width: 30%;
+}
+ 
+.column.one-fourth {
+  width: 21.25%;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  *zoom: 1;
+}
+.row {
+  overflow: hidden;
+}
+@media screen and (max-width: 640px) {
+  .column.full,
+  .column.two-thirds,
+  .column.half,
+  .column.one-third,
+  .column.one-fourth {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+}
+  </head>
+ </style>
+ <body>
+   <div class="container">
+  <div class="row">
+    <div class="column full"></div>
+  </div>
+  
+  <div class="row">
+    <div class="column two-thirds"></div>
+    <div class="column one-third"></div>
+  </div>
+  
+  <div class="row">
+    <div class="column half"></div>
+    <div class="column half"></div>
+  </div>
+  
+  <div class="row">
+    <div class="column one-third"></div>
+    <div class="column one-third"></div>
+    <div class="column one-third"></div>
+  </div>
+  
+  <div class="row">
+    <div class="column one-fourth"></div>
+    <div class="column one-fourth"></div>
+    <div class="column one-fourth"></div>
+    <div class="column one-fourth"></div>
+  </div>
+</div>
+ </body>
+</html>
