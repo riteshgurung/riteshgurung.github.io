@@ -6,7 +6,7 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
- 
+
 /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800);
 
@@ -38,10 +38,10 @@ hr {
   margin: 1em 0;
   padding: 0; }
 
-  
+
   /* =========================
 
-		GENERAL STYLES 
+		GENERAL STYLES
 
    =========================*/
 *, *:before, *:after {
@@ -100,14 +100,14 @@ a:active {
 
 .mb-7 {
   margin-bottom: 70px; }
-  
+
 .centered {
 	text-align: center;
 }
 
 /* =========================
 
-		SECTION STYLES 
+		SECTION STYLES
 
    =========================*/
 #hero,
@@ -151,14 +151,14 @@ a:active {
 
 /* =========================
 
-			WORK 
+			WORK
 
    =========================*/
 
 #work .showcase {
   width: 100%;
   padding: 0px;
-  
+
    }
 
 .showcase-tiles {
@@ -174,7 +174,7 @@ a:active {
 
 /* =========================
 
-		DRIBBBLE FEED 
+		DRIBBBLE FEED
 
    =========================*/
 .d-hover {
@@ -199,12 +199,12 @@ a:active {
 ul.slides {
   line-height: 0px;
   padding: 0px; }
-  
+
 ul.slides li {
 display: inline-block;
 width: 25%; }
 
-  
+
 ul.slides li a {
   display: block;
   width: 100%;
@@ -213,7 +213,7 @@ ul.slides li a {
 
 ul.slides li a:hover .d-hover {
   display: block; }
-	    
+
 ul.slides li a img {
 	width: 100%; }
 
@@ -249,13 +249,13 @@ ul, menu, dir {
         display: none; }
 /* =========================
 
-			FOOTER 
+			FOOTER
 
    =========================*/
 #networks {
 	width: 100%;
-	height: 100%;
-	padding-top: 200px;
+	height: 100% !important;
+	/*padding-top: 200px;*/
 }
 
 #networks i {
